@@ -5,13 +5,7 @@ const config: GatsbyConfig = {
     title: `Ernesto Cobos - IT Professional`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap",    {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `src`,
-      path: `${__dirname}/src/`,
-    },
-  }, {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
